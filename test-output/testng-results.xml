@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="9589" started-at="2022-02-24T12:39:36 EST" finished-at="2022-02-24T12:39:45 EST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="9589" started-at="2022-02-24T12:39:36 EST" finished-at="2022-02-24T12:39:45 EST">
+      <class name="WebstaurantStore_TC1">
+        <test-method status="PASS" signature="setup()[pri:0, instance:WebstaurantStore_TC1@3214ee6]" name="setup" is-config="true" duration-ms="1339" started-at="2022-02-24T12:39:36 EST" finished-at="2022-02-24T12:39:37 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyLandingPageLoaded()[pri:0, instance:WebstaurantStore_TC1@3214ee6]" name="verifyLandingPageLoaded" duration-ms="16" started-at="2022-02-24T12:39:37 EST" finished-at="2022-02-24T12:39:37 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLandingPageLoaded -->
+        <test-method status="PASS" signature="verifySearchResults()[pri:0, instance:WebstaurantStore_TC1@3214ee6]" name="verifySearchResults" duration-ms="2861" started-at="2022-02-24T12:39:37 EST" depends-on-methods="WebstaurantStore_TC1.verifyLandingPageLoaded" finished-at="2022-02-24T12:39:40 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchResults -->
+        <test-method status="PASS" signature="addToCartAndEmpty()[pri:0, instance:WebstaurantStore_TC1@3214ee6]" name="addToCartAndEmpty" duration-ms="5180" started-at="2022-02-24T12:39:40 EST" depends-on-methods="WebstaurantStore_TC1.verifySearchResults" finished-at="2022-02-24T12:39:45 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartAndEmpty -->
+        <test-method status="PASS" signature="TeardownTest()[pri:0, instance:WebstaurantStore_TC1@3214ee6]" name="TeardownTest" is-config="true" duration-ms="164" started-at="2022-02-24T12:39:45 EST" finished-at="2022-02-24T12:39:45 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TeardownTest -->
+      </class> <!-- WebstaurantStore_TC1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
